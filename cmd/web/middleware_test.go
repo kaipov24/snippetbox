@@ -11,7 +11,7 @@ import (
 )
 
 func TestSecureHeaders(t *testing.T) {
-	// Initialize a new httptest.ResponseRecorder and dummy http.Request.
+
 	rr := httptest.NewRecorder()
 
 	r, err := http.NewRequest(http.MethodGet, "/", nil)
